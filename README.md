@@ -35,7 +35,14 @@ This tool solves that with a simple one-click shortcut.
 
 The setup wizard will guide you through the rest with simple dialog boxes — no command line interaction required.
 
+1.
 ![Alt Text](docs/setup-screenshot-01.png)
+
+2.
+![Alt Text](docs/setup-screenshot-02.png)
+
+3.
+![Alt Text](docs/setup-screenshot-03.png)
 
 ---
 
