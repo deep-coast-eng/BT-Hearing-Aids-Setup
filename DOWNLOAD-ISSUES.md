@@ -10,4 +10,4 @@ the box containing the file in the file page).
 
 Note: If downloading files individually, ensure both 
 BlueTooth Hearing Aids Setup.bat and Setup-BTHearingAids.ps1 
-are saved into the same folder for the shortcut to work.
+are saved into the same folder for the script to work.
