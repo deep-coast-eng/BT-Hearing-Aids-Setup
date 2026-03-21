@@ -28,7 +28,7 @@ This tool solves that with a simple one-click shortcut.
 
 ## Quick Start
 
-1. Download both `Run-Setup.bat` and `Setup-BTAudioShortcut.ps1` into the same folder
+1. Download both `Run-Setup.bat` and `Setup-BTAudioShortcut.ps1` into the same folder (required)
 2. If you run into a "virus scan failed" alert from your bwoser application or Windows 11, please see the [Download Issues document](DOWNLOAD-ISSUES.md) for further instructions.
 3. Make sure your hearing aids are connected to your computer via Bluetooth
 4. Turn off Bluetooth on your phone or any other device your hearing aids also connect to
