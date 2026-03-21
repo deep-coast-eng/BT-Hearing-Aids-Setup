@@ -119,7 +119,7 @@ I built this tool to solve a specific gap in Windows 11 Bluetooth LE support for
 
 **Privacy-First Donations (Crypto):**
 * **XRP (preferred):** `rwnYLUsoBQX3ECa1A5bSKLdbPoHKnqf63J` (use memo below - this is required for sending XRP on Conibase)
-* XRP Destination Tag/Memo:** `3960821948` (Required for Coinbase!)
+  * XRP Destination Tag/Memo:** `3960821948` (Required for Coinbase!)
 * **BTC:** `37g1HBnGs8W37WDGsNDWYTAKyupjFZCPgi`
 * **ETH/ERC-20:** `0xB123ffDd271f86f9d8eD8037Ba9b47Ed68526675`
 * **SOL:** `HUQfdk4V6QMyu58Sd9XbHX9L3mY8gPs71VwCbnybPvZU`
