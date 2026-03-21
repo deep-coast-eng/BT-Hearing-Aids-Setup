@@ -118,8 +118,8 @@ Your Bluetooth hardware or driver does not support LE Audio. Your hearing aids w
 I built this tool to solve a specific gap in Windows 11 Bluetooth LE support for hearing aid users - I use this tool personally, and want to share it with others. If this saved you time or improved your experience, feel free to drop a tip.
 
 **Privacy-First Donations (Crypto):**
-* **XRP (preferred):** `rwnYLUsoBQX3ECa1A5bSKLdbPoHKnqf63J`
-* XRP memo:** 3960821948
+* **XRP (preferred):** `rwnYLUsoBQX3ECa1A5bSKLdbPoHKnqf63J` (use memo below - this is required for sending XRP on Conibase)
+* XRP Destination Tag/Memo:** `3960821948` (Required for Coinbase!)
 * **BTC:** `37g1HBnGs8W37WDGsNDWYTAKyupjFZCPgi`
 * **ETH/ERC-20:** `0xB123ffDd271f86f9d8eD8037Ba9b47Ed68526675`
 * **SOL:** `HUQfdk4V6QMyu58Sd9XbHX9L3mY8gPs71VwCbnybPvZU`
