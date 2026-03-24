@@ -26,7 +26,7 @@ Open an issue and describe what you would like to see changed and why. No coding
 
 ## Testing
 
-If you would like to help validate the tool before broader release, see the [Testing Rubric](https://claude.ai/chat/docs/testing-rubric.md). It covers compatibility checks, setup wizard behavior, tray icon states, the unlock trigger, edge cases, and an accessibility review section suitable for non-technical testers.
+If you would like to help validate the tool before broader release, see the [Testing Rubric](https://github.com/deep-coast-eng/BT-Hearing-Aids-Setup/blob/main/docs/testing-rubric.md). It covers compatibility checks, setup wizard behavior, tray icon states, the unlock trigger, edge cases, and an accessibility review section suitable for non-technical testers.
 
 ---
 
