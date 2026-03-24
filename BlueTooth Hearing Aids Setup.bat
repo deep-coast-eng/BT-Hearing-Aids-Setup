@@ -1,2 +1,2 @@
 @echo off
-powershell -ExecutionPolicy Bypass -File "%~dp0Setup-BTAudioShortcut.ps1"
+powershell -ExecutionPolicy Bypass -Command "Start-Process powershell -ArgumentList '-ExecutionPolicy Bypass -WindowStyle Hidden -File ""%~dp0Setup-BTHearingAids.ps1""' -WindowStyle Hidden"
