@@ -4,7 +4,7 @@ A PowerShell setup wizard that detects paired Bluetooth hearing aids (or any Blu
 
 Built for people who use Bluetooth hearing aids with a Windows 11 laptop and need a reliable, repeatable way to route audio to their device after reconnecting.
 
-Not sure if your equipment qualifies? See the [Compatibility Guide](https://claude.ai/chat/docs/compatibility-guide.md).
+Not sure if your equipment qualifies? See the [Compatibility Guide](https://github.com/deep-coast-eng/BT-Hearing-Aids-Setup/blob/main/docs/compatibility-guide.md).
 
 ---
 
