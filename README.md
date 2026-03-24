@@ -162,7 +162,7 @@ Your Bluetooth hardware does not support LE Audio. Your hearing aids will not wo
 
 **I am not sure what to do**
 
-Ask your IT support or a family member for help. For technical support, visit the [Issues page](https://github.com/deep-coast-eng/BT-Hearing-Aids-Setup/issues).
+Ask your IT support or a family member for help.
 
 ---
 
@@ -200,11 +200,11 @@ Other hardware that meets the requirements above should work. If you test on add
 
 ## Contributing
 
-Contributions are welcome. See [CONTRIBUTING.md](https://claude.ai/chat/CONTRIBUTING.md) for guidelines on reporting issues, suggesting improvements, and submitting pull requests.
+Contributions are welcome. See [CONTRIBUTING.md](https://github.com/deep-coast-eng/BT-Hearing-Aids-Setup/blob/main/CONTRIBUTING.md) for guidelines on reporting issues, suggesting improvements, and submitting pull requests.
 
-If you would like to help test the tool before broader release, see the [Testing Rubric](https://claude.ai/chat/docs/testing-rubric.md).
+If you would like to help test the tool before broader release, see the [Testing Rubric](https://github.com/deep-coast-eng/BT-Hearing-Aids-Setup/blob/main/docs/testing-rubric.md).
 
-For planned improvements and known limitations, see the [Roadmap](https://claude.ai/chat/ROADMAP.md).
+For planned improvements and known limitations, see the [Roadmap](https://github.com/deep-coast-eng/BT-Hearing-Aids-Setup/blob/main/Roadmap.md).
 
 ---
 
