@@ -26,7 +26,7 @@ Open an issue and describe what you would like to see changed and why. No coding
 
 ## Testing
 
-If you would like to help validate the tool before broader release, see the [Testing Rubric](https://github.com/deep-coast-eng/BT-Hearing-Aids-Setup/blob/main/docs/testing-rubric.md). It covers compatibility checks, setup wizard behavior, tray icon states, the unlock trigger, edge cases, and an accessibility review section suitable for non-technical testers.
+If you would like to help validate the tool before broader release, see the [Testing Rubric](docs/testing-rubric.md). It covers compatibility checks, setup wizard behavior, tray icon states, the unlock trigger, edge cases, and an accessibility review section suitable for non-technical testers.
 
 ---
 
@@ -44,7 +44,7 @@ If you would like to contribute code:
 
 - This tool is used by non-technical people. Plain language in all user-facing text is a priority — avoid technical terms in popups, prompts, and error messages
 - All user interaction should remain in GUI dialogs (Windows Forms). No console output for end users
-- The numbered step comments in `Setup-BTHearingAids.ps1` are intentional — they help non-developer contributors follow the flow. Please maintain them for new steps
+- The numbered step comments in `Setup-BTAudioShortcut.ps1` are intentional — they help non-developer contributors follow the flow. Please maintain them for new steps
 - Test compatibility check failures as well as successes — the failure paths matter as much as the happy path for this audience
 - If you add a new dependency, it must be free, installable without admin rights, and sourced from PowerShell Gallery or a similarly trusted source
 
