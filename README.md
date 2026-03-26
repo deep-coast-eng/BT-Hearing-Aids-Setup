@@ -1,8 +1,6 @@
 # Hearing Aid Audio Setup for Windows 11
 
-A PowerShell setup wizard that detects paired Bluetooth hearing aids (or any Bluetooth audio device), sets them as the default audio output, adds a system tray icon for status and quick switching, and automatically re-enforces audio routing each time you unlock your screen.
-
-Built for people who use Bluetooth hearing aids with a Windows 11 laptop and need a reliable, repeatable way to route audio to their device after reconnecting.
+A free tool that fixes a known Windows 11 problem where Bluetooth LE hearing aids don't automatically become the audio output after reconnecting — run it once and it handles the rest.
 
 Not sure if your equipment qualifies? See the [Compatibility Guide](docs/compatibility-guide.md).
 
@@ -20,11 +18,12 @@ This tool solves that with a setup wizard, a system tray icon, and automatic bac
 
 | Requirement | Details |
 |---|---|
-| Windows 11 24H2 or later | Build 26100+. Required for Bluetooth LE Audio support. |
+| Windows 11 24H2 or later | Required for Bluetooth LE Audio support. |
 | Bluetooth LE Audio hardware | Your PC's Bluetooth adapter must support LE Audio. Check Settings → Bluetooth & devices → Devices for a "Use LE Audio when available" toggle. If it is not there, your hardware may not be compatible. |
 | Bluetooth LE Audio hearing aids | Your hearing aids must support Bluetooth LE Audio. Compatible brands include Philips, Oticon, ReSound, and Beltone, but not every model qualifies — check your specific device. |
-| PowerShell 5.1 | Included with Windows 11. No additional install needed. |
-| Internet connection | Required during first-time setup only, to install AudioDeviceCmdlets from PowerShell Gallery. |
+| Internet connection | Required during first-time setup only, to install a small audio control tool. |
+
+The setup wizard handles all technical requirements automatically — you only need Windows 11 and a working Bluetooth connection.
 
 ---
 
@@ -84,19 +83,6 @@ Double-click **Check-Compatibility.bat** before running setup. It checks your sy
 
 ---
 
-## Files Included
-
-| File | Purpose |
-|---|---|
-| `BlueTooth Hearing Aids Setup.bat` | Double-click to run the full setup wizard |
-| `Check-Compatibility.bat` | Double-click to check compatibility only — no changes made |
-| `Run-Diagnostic.bat` | Double-click to run the diagnostic tool for testing and issue reporting |
-| `Setup-BTHearingAids.ps1` | The setup script. Both setup `.bat` files run this automatically |
-| `HearingAidTray.ps1` | The system tray app. Installed automatically during setup |
-| `RunDiagnostic.ps1` | The diagnostic script. Run-Diagnostic.bat runs this automatically |
-
----
-
 ## When to Re-Run Setup
 
 The tray icon, Desktop shortcut, and automatic unlock check handle day-to-day use. Run **BlueTooth Hearing Aids Setup.bat** again if:
@@ -124,7 +110,7 @@ Your phone may still be connected to them. Turn off Bluetooth on your phone, wai
 
 **The tray icon is grey but my hearing aids are connected**
 
-Windows may not have registered the audio endpoint yet. Wait a few seconds and click the tray icon again. If it stays grey, go to Settings → Bluetooth & devices and confirm your hearing aids show as connected there.
+Windows may not have finished connecting to your hearing aids yet. Wait a few seconds and click the tray icon again. If it stays grey, go to Settings → Bluetooth & devices and confirm your hearing aids show as connected there.
 
 **The tray icon is blue — hearing aids connected but not active**
 
@@ -136,7 +122,7 @@ This is by design — the unlock check only re-enforces hearing aids if they wer
 
 **The tray icon is not showing on a work or managed computer**
 
-Some organizations restrict scripts from running out of the AppData folder using AppLocker or similar policies. This is a known limitation on managed machines and does not affect the Desktop shortcut or the unlock trigger. The shortcut remains fully functional as a manual fallback.
+Some work computers restrict certain programs from running. This is controlled by your organization's IT department, not by this tool. The Desktop shortcut and unlock check are not affected and remain fully functional as a fallback.
 
 **The tray icon is not showing in the taskbar**
 
@@ -176,12 +162,6 @@ If your antivirus blocks the download, download the raw files directly from GitH
 
 ---
 
-## Dependencies
-
-- [AudioDeviceCmdlets](https://github.com/frgnca/AudioDeviceCmdlets) — MIT licensed, installed automatically during setup
-
----
-
 ## Tested On
 
 - Framework Laptop 16 (AMD Ryzen AI 370)
@@ -199,6 +179,25 @@ Contributions are welcome. See [CONTRIBUTING.md](CONTRIBUTING.md) for guidelines
 If you would like to help test the tool before broader release, see the [Testing Rubric](docs/testing-rubric.md).
 
 For planned improvements and known limitations, see the [Roadmap](Roadmap.md).
+
+---
+
+## Files Included
+
+| File | Purpose |
+|---|---|
+| `BlueTooth Hearing Aids Setup.bat` | Double-click to run the full setup wizard |
+| `Check-Compatibility.bat` | Double-click to check compatibility only — no changes made |
+| `Run-Diagnostic.bat` | Double-click to run the diagnostic tool for testing and issue reporting |
+| `Setup-BTHearingAids.ps1` | The setup script. Both setup `.bat` files run this automatically |
+| `HearingAidTray.ps1` | The system tray app. Installed automatically during setup |
+| `RunDiagnostic.ps1` | The diagnostic script. Run-Diagnostic.bat runs this automatically |
+
+---
+
+## Dependencies
+
+- [AudioDeviceCmdlets](https://github.com/frgnca/AudioDeviceCmdlets) — MIT licensed, installed automatically during setup
 
 ---
 
