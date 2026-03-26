@@ -1,2 +1,2 @@
 @echo off
-powershell -ExecutionPolicy Bypass -WindowStyle Hidden -File "%~dp0Setup-BTHearingAids.ps1" -CheckOnly
+powershell -ExecutionPolicy Bypass -WindowStyle Hidden -File "%~dp0SetupBTHearingAids.ps1" -CheckOnly
