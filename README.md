@@ -4,6 +4,8 @@ A free tool that fixes a known Windows 11 problem where Bluetooth LE hearing aid
 
 Not sure if your equipment qualifies? See the [Compatibility Guide](docs/compatibility-guide.md).
 
+**Audiologists and hearing care providers:** A printable [one-page summary](Hearing-Aid-Audio-Setup-One-Sheet.pdf) is available to share with patients.
+
 ---
 
 ## The Problem
