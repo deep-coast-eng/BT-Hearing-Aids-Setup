@@ -33,7 +33,7 @@ This tool solves that with a setup wizard, a system tray icon, and automatic bac
 1. Download all files into the same folder on your computer
 2. Make sure your hearing aids are connected via Bluetooth (Settings → Bluetooth & devices)
 3. Turn off Bluetooth on your phone or tablet
-4. Double-click **Run-Setup.bat**
+4. Double-click **BlueTooth Hearing Aids Setup.bat**
 
 The setup wizard will guide you through everything with simple dialog boxes — no command line interaction required.
 
