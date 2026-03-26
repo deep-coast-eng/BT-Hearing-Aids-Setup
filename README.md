@@ -1,4 +1,3 @@
-# README.md
 # Hearing Aid Audio Setup for Windows 11
 
 A PowerShell setup wizard that detects paired Bluetooth hearing aids (or any Bluetooth audio device), sets them as the default audio output, adds a system tray icon for status and quick switching, and automatically re-enforces audio routing each time you unlock your screen.
