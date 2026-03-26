@@ -1,10 +1,11 @@
+# README.md
 # Hearing Aid Audio Setup for Windows 11
 
 A PowerShell setup wizard that detects paired Bluetooth hearing aids (or any Bluetooth audio device), sets them as the default audio output, adds a system tray icon for status and quick switching, and automatically re-enforces audio routing each time you unlock your screen.
 
 Built for people who use Bluetooth hearing aids with a Windows 11 laptop and need a reliable, repeatable way to route audio to their device after reconnecting.
 
-Not sure if your equipment qualifies? See the [Compatibility Guide](https://github.com/deep-coast-eng/BT-Hearing-Aids-Setup/blob/main/docs/compatibility-guide.md).
+Not sure if your equipment qualifies? See the [Compatibility Guide](docs/compatibility-guide.md).
 
 ---
 
@@ -18,13 +19,13 @@ This tool solves that with a setup wizard, a system tray icon, and automatic bac
 
 ## Requirements
 
-|Requirement|Details|
+| Requirement | Details |
 |---|---|
-|Windows 11 24H2 or later|Build 26100+. Required for Bluetooth LE Audio support.|
-|Bluetooth LE Audio hardware|Your PC's Bluetooth adapter must support LE Audio. Check Settings → Bluetooth & devices → Devices for a "Use LE Audio when available" toggle. If it is not there, your hardware may not be compatible.|
-|Bluetooth LE Audio hearing aids|Your hearing aids must support Bluetooth LE Audio. Compatible brands include Philips, Oticon, ReSound, and Beltone, but not every model qualifies — check your specific device.|
-|PowerShell 5.1|Included with Windows 11. No additional install needed.|
-|Internet connection|Required during first-time setup only, to install AudioDeviceCmdlets from PowerShell Gallery.|
+| Windows 11 24H2 or later | Build 26100+. Required for Bluetooth LE Audio support. |
+| Bluetooth LE Audio hardware | Your PC's Bluetooth adapter must support LE Audio. Check Settings → Bluetooth & devices → Devices for a "Use LE Audio when available" toggle. If it is not there, your hardware may not be compatible. |
+| Bluetooth LE Audio hearing aids | Your hearing aids must support Bluetooth LE Audio. Compatible brands include Philips, Oticon, ReSound, and Beltone, but not every model qualifies — check your specific device. |
+| PowerShell 5.1 | Included with Windows 11. No additional install needed. |
+| Internet connection | Required during first-time setup only, to install AudioDeviceCmdlets from PowerShell Gallery. |
 
 ---
 
@@ -48,7 +49,6 @@ Double-click **Check-Compatibility.bat** before running setup. It checks your sy
 ## What Setup Does
 
 **During setup:**
-
 - Asks you to turn off Bluetooth on nearby mobile devices before proceeding
 - Detects whether setup has already been run and confirms before making changes
 - Checks system compatibility with a plain-language result for each requirement
@@ -61,29 +61,25 @@ Double-click **Check-Compatibility.bat** before running setup. It checks your sy
 - Keeps a Desktop shortcut as a manual fallback
 
 **The system tray icon:**
-
 - Starts automatically when you log into Windows
 - Shows connection status at a glance
 - Left-click opens a small menu to check status or switch audio to your hearing aids
 - Does not interrupt you or show popups unless you interact with it
 
 **Tray icon states:**
-
-|Icon color|Meaning|
+| Icon color | Meaning |
 |---|---|
-|🟢 Green|Hearing aids are connected and active as the audio output|
-|🔵 Blue|Hearing aids are connected but something else is the active output — click to switch back|
-|⚫ Grey|Hearing aids are not connected|
+| 🟢 Green | Hearing aids are connected and active as the audio output |
+| 🔵 Blue | Hearing aids are connected but something else is the active output — click to switch back |
+| ⚫ Grey | Hearing aids are not connected |
 
 **The automatic unlock check:**
-
 - Runs silently 5 seconds after you unlock your screen
 - Re-enforces hearing aids as the audio output only if they were already active before you locked
 - Respects manual device switches — if you chose a headset, it will not override that choice
 - Does nothing if hearing aids are not connected
 
 **The Desktop shortcut:**
-
 - Manual override — always forces hearing aids as the audio output regardless of what is currently active
 - Use this when you want to switch back to hearing aids after using another device
 
@@ -91,14 +87,14 @@ Double-click **Check-Compatibility.bat** before running setup. It checks your sy
 
 ## Files Included
 
-|File|Purpose|
+| File | Purpose |
 |---|---|
-|`Run-Setup.bat`|Double-click to run the full setup wizard|
-|`Check-Compatibility.bat`|Double-click to check compatibility only — no changes made|
-|`Run-Diagnostic.bat`|Double-click to run the diagnostic tool for testing and issue reporting|
-|`Setup-BTHearingAids.ps1`|The setup script. Both setup `.bat` files run this automatically|
-|`HearingAidTray.ps1`|The system tray app. Installed automatically during setup|
-|`Run-Diagnostic.ps1`|The diagnostic script. Run-Diagnostic.bat runs this automatically|
+| `Run-Setup.bat` | Double-click to run the full setup wizard |
+| `Check-Compatibility.bat` | Double-click to check compatibility only — no changes made |
+| `Run-Diagnostic.bat` | Double-click to run the diagnostic tool for testing and issue reporting |
+| `Setup-BTAudioShortcut.ps1` | The setup script. Both setup `.bat` files run this automatically |
+| `HearingAidTray.ps1` | The system tray app. Installed automatically during setup |
+| `Run-Diagnostic.ps1` | The diagnostic script. Run-Diagnostic.bat runs this automatically |
 
 ---
 
@@ -118,7 +114,6 @@ The tray icon, Desktop shortcut, and automatic unlock check handle day-to-day us
 **The compatibility check says my computer does not qualify**
 
 The check will tell you specifically what failed. Common causes:
-
 - Windows needs to be updated — go to Settings → Windows Update and install all available updates
 - No Bluetooth hardware found — this computer may not be compatible without a hardware upgrade
 - Bluetooth is not running — try restarting the computer and running setup again
@@ -162,7 +157,7 @@ Your Bluetooth hardware does not support LE Audio. Your hearing aids will not wo
 
 **I am not sure what to do**
 
-Ask your IT support or a family member for help.
+Ask your IT support or a family member for help. For technical support, visit the [Issues page](https://github.com/deep-coast-eng/BT-Hearing-Aids-Setup/issues).
 
 ---
 
@@ -200,11 +195,11 @@ Other hardware that meets the requirements above should work. If you test on add
 
 ## Contributing
 
-Contributions are welcome. See [CONTRIBUTING.md](https://github.com/deep-coast-eng/BT-Hearing-Aids-Setup/blob/main/CONTRIBUTING.md) for guidelines on reporting issues, suggesting improvements, and submitting pull requests.
+Contributions are welcome. See [CONTRIBUTING.md](CONTRIBUTING.md) for guidelines on reporting issues, suggesting improvements, and submitting pull requests.
 
-If you would like to help test the tool before broader release, see the [Testing Rubric](https://github.com/deep-coast-eng/BT-Hearing-Aids-Setup/blob/main/docs/testing-rubric.md).
+If you would like to help test the tool before broader release, see the [Testing Rubric](docs/testing-rubric.md).
 
-For planned improvements and known limitations, see the [Roadmap](https://github.com/deep-coast-eng/BT-Hearing-Aids-Setup/blob/main/Roadmap.md).
+For planned improvements and known limitations, see the [Roadmap](ROADMAP.md).
 
 ---
 
@@ -219,6 +214,7 @@ I built this tool to solve a specific gap in Windows 11 Bluetooth LE support for
 * **SOL:** `HUQfdk4V6QMyu58Sd9XbHX9L3mY8gPs71VwCbnybPvZU`
 
 *No pressure—stars and feedback are just as appreciated!*
+
 ---
 
 ## License
@@ -229,4 +225,4 @@ For commercial licensing, contact: https://github.com/DeepCoastEngineering
 
 ---
 
-_Made by [Deep Coast Engineering](https://github.com/DeepCoastEngineering)_
+*Made by [Deep Coast Engineering](https://github.com/DeepCoastEngineering)*
