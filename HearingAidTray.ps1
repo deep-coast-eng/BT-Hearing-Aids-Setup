@@ -1,3 +1,4 @@
+#HearingAidTray.ps1
 #Requires -Version 5.1
 <#
 .SYNOPSIS
@@ -11,7 +12,7 @@
     Repository:  https://github.com/deep-coast-eng/BT-Hearing-Aids-Setup
     Version:     1.0.0
 
-    This script is generated and installed by Setup-BTHearingAids.ps1.
+    This script is generated and installed by Setup-BTAudioShortcut.ps1.
     The DeviceName parameter is injected automatically during setup.
     Do not edit the installed copy directly — re-run setup to update.
 
