@@ -1,5 +1,3 @@
-# docs/compatibility.md
-
 # Does My Equipment Work With This?
 
 Before using this tool, you need two things to be true:
