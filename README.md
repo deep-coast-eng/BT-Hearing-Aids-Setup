@@ -156,7 +156,7 @@ Your Bluetooth hardware does not support LE Audio. Your hearing aids will not wo
 
 **I am not sure what to do**
 
-Ask your IT support or a family member for help. For technical support, visit the [Issues page](https://github.com/deep-coast-eng/BT-Hearing-Aids-Setup/issues).
+Ask your IT support or a family member for help. For technical support, visit the [Issues page - github users and project contributors](https://github.com/deep-coast-eng/BT-Hearing-Aids-Setup/issues).
 
 ---
 
