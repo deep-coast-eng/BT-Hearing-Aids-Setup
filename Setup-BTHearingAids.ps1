@@ -1,3 +1,4 @@
+#Setup-BTAudioShortcut.ps1
 #Requires -Version 5.1
 <#
 .SYNOPSIS
@@ -7,8 +8,8 @@
     a Task Scheduler job to re-enforce audio output on screen unlock.
 
 .USAGE
-    powershell -ExecutionPolicy Bypass -File Setup-BTHearingAids.ps1
-    powershell -ExecutionPolicy Bypass -File Setup-BTHearingAids.ps1 -CheckOnly
+    powershell -ExecutionPolicy Bypass -File Setup-BTAudioShortcut.ps1
+    powershell -ExecutionPolicy Bypass -File Setup-BTAudioShortcut.ps1 -CheckOnly
 
 .VERSION HISTORY
     1.0.0   Initial release
@@ -432,7 +433,7 @@ $enforcerContent = @"
 # Device: $($selected.Name)
 #
 # NOTE: This script is intentionally generated as a here-string inside
-# Setup-BTHearingAids.ps1 rather than shipped as a standalone template.
+# Setup-BTAudioShortcut.ps1 rather than shipped as a standalone template.
 # This keeps the repo self-contained and ensures the device name is injected
 # at install time without requiring a separate configuration step.
 # See HearingAidTray.ps1 for the same pattern used with the tray app.
