@@ -440,7 +440,7 @@ $enforcerContent = @"
 param([switch]`$Auto)
 Add-Type -AssemblyName System.Windows.Forms
 Import-Module AudioDeviceCmdlets -ErrorAction Stop
-`$name = "$($selected.Name)"
+`$name = '$($selected.Name)'
 
 # If running automatically on unlock, only enforce if hearing aids were
 # already the default or no other non-hearing-aid device is active
