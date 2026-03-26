@@ -60,7 +60,7 @@ If you do not see it, your computer does not currently support Bluetooth LE Audi
 Run the setup tool with the compatibility check flag and it will tell you exactly what your computer supports before making any changes:
 
 ```powershell
-powershell -ExecutionPolicy Bypass -File Setup-BTAudioShortcut.ps1 -CheckOnly
+powershell -ExecutionPolicy Bypass -File Setup-BTHearingAids.ps1 -CheckOnly
 ```
 
 This is safe to run — it checks your system and shows results without installing or changing anything.
