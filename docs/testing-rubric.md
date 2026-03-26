@@ -79,7 +79,7 @@ Run `Check-Compatibility.bat` before running setup.
 
 ## Section 2 — Setup Wizard
 
-Run `Run-Setup.bat` on a qualifying machine with hearing aids connected.
+Run `BlueTooth Hearing Aids Setup.bat` on a qualifying machine with hearing aids connected.
 
 | Test | Expected Result | Pass / Fail / Notes |
 |---|---|---|
@@ -101,7 +101,7 @@ Run `Run-Setup.bat` on a qualifying machine with hearing aids connected.
 
 ## Section 3 — Already-Run Detection
 
-Run `Run-Setup.bat` a second time on the same machine.
+Run `BlueTooth Hearing Aids Setup.bat` a second time on the same machine.
 
 | Test | Expected Result | Pass / Fail / Notes |
 |---|---|---|
