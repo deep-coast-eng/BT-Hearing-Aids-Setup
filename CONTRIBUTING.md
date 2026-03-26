@@ -44,7 +44,7 @@ If you would like to contribute code:
 
 - This tool is used by non-technical people. Plain language in all user-facing text is a priority — avoid technical terms in popups, prompts, and error messages
 - All user interaction should remain in GUI dialogs (Windows Forms). No console output for end users
-- The numbered step comments in `Setup-BTAudioShortcut.ps1` are intentional — they help non-developer contributors follow the flow. Please maintain them for new steps
+- The numbered step comments in `Setup-BTHearingAids.ps1` are intentional — they help non-developer contributors follow the flow. Please maintain them for new steps
 - Test compatibility check failures as well as successes — the failure paths matter as much as the happy path for this audience
 - If you add a new dependency, it must be free, installable without admin rights, and sourced from PowerShell Gallery or a similarly trusted source
 
