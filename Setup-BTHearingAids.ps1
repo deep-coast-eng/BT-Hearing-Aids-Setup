@@ -433,7 +433,7 @@ $enforcerContent = @"
 # Device: $($selected.Name)
 #
 # NOTE: This script is intentionally generated as a here-string inside
-# Setup-BTAudioShortcut.ps1 rather than shipped as a standalone template.
+# Setup-BTHearingAids.ps1 rather than shipped as a standalone template.
 # This keeps the repo self-contained and ensures the device name is injected
 # at install time without requiring a separate configuration step.
 # See HearingAidTray.ps1 for the same pattern used with the tray app.
