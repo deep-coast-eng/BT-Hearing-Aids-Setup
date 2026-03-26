@@ -91,7 +91,7 @@ Double-click **Check-Compatibility.bat** before running setup. It checks your sy
 | `Run-Setup.bat` | Double-click to run the full setup wizard |
 | `Check-Compatibility.bat` | Double-click to check compatibility only — no changes made |
 | `Run-Diagnostic.bat` | Double-click to run the diagnostic tool for testing and issue reporting |
-| `Setup-BTAudioShortcut.ps1` | The setup script. Both setup `.bat` files run this automatically |
+| `Setup-BTHearingAids.ps1` | The setup script. Both setup `.bat` files run this automatically |
 | `HearingAidTray.ps1` | The system tray app. Installed automatically during setup |
 | `Run-Diagnostic.ps1` | The diagnostic script. Run-Diagnostic.bat runs this automatically |
 
