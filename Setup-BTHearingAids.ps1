@@ -1,4 +1,4 @@
-#Setup-BTAudioShortcut.ps1
+#Setup-BTHearingAids.ps1
 #Requires -Version 5.1
 <#
 .SYNOPSIS
@@ -8,8 +8,8 @@
     a Task Scheduler job to re-enforce audio output on screen unlock.
 
 .USAGE
-    powershell -ExecutionPolicy Bypass -File Setup-BTAudioShortcut.ps1
-    powershell -ExecutionPolicy Bypass -File Setup-BTAudioShortcut.ps1 -CheckOnly
+    powershell -ExecutionPolicy Bypass -File Setup-BTHearingAids.ps1
+    powershell -ExecutionPolicy Bypass -File Setup-BTHearingAids.ps1 -CheckOnly
 
 .VERSION HISTORY
     1.0.0   Initial release
