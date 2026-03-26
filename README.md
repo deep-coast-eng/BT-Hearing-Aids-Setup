@@ -88,21 +88,21 @@ Double-click **Check-Compatibility.bat** before running setup. It checks your sy
 
 | File | Purpose |
 |---|---|
-| `Run-Setup.bat` | Double-click to run the full setup wizard |
+| `BlueTooth Hearing Aids Setup.bat` | Double-click to run the full setup wizard |
 | `Check-Compatibility.bat` | Double-click to check compatibility only — no changes made |
 | `Run-Diagnostic.bat` | Double-click to run the diagnostic tool for testing and issue reporting |
 | `Setup-BTHearingAids.ps1` | The setup script. Both setup `.bat` files run this automatically |
 | `HearingAidTray.ps1` | The system tray app. Installed automatically during setup |
-| `Run-Diagnostic.ps1` | The diagnostic script. Run-Diagnostic.bat runs this automatically |
+| `RunDiagnostic.ps1` | The diagnostic script. Run-Diagnostic.bat runs this automatically |
 
 ---
 
 ## When to Re-Run Setup
 
-The tray icon, Desktop shortcut, and automatic unlock check handle day-to-day use. Run **Run-Setup.bat** again if:
+The tray icon, Desktop shortcut, and automatic unlock check handle day-to-day use. Run **BlueTooth Hearing Aids Setup.bat** again if:
 
-- You got new hearing aids
-- Your hearing aids were re-paired to your computer
+- You are adding new hearing aids
+- Your current hearing aids were re-paired to your computer
 - A Windows update changed your audio settings and things stop working
 - You were told to re-run setup by whoever set this up for you
 
