@@ -198,7 +198,7 @@ Contributions are welcome. See [CONTRIBUTING.md](CONTRIBUTING.md) for guidelines
 
 If you would like to help test the tool before broader release, see the [Testing Rubric](docs/testing-rubric.md).
 
-For planned improvements and known limitations, see the [Roadmap](ROADMAP.md).
+For planned improvements and known limitations, see the [Roadmap](Roadmap.md).
 
 ---
 
